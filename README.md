@@ -1,6 +1,44 @@
-# StickerSmash
+# Feliz React-Native
 
-StickerSmash app, just for fun.
+A Test app using F# with Fable and React-Native with Expo.
+
+## How to run
+
+### Install Fable
+
+To install Fable run the following
+
+```bash
+dotnet tool restore
+```
+
+### Install npm-packages
+
+Run
+
+```bash
+pnpm install
+```
+
+### Actually running it
+
+1. Compile the F# to Javascript and watch for changes
+
+```bash
+dotnet fable watch ./src -o ./out
+```
+or from our `package.json`
+```bash
+pnpm start watch
+```
+
+2. Run the app (ios, android or web)
+
+```bash
+pnpm run web
+```
+
+3. Enjoy 🩹
 
 ## Acknowledgements
 
