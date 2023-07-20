@@ -1,6 +1,6 @@
 # Feliz React-Native
 
-A Test app using F# with Fable and React-Native with Expo.
+A Test app using F# with Fable and React-Native with Expo. Following this [guide](https://docs.expo.dev/tutorial/introduction/)
 
 ## How to run
 
