@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fable.Core" Version="4.0.0" />
+    <PackageReference Include="Fable.React" Version="9.3.0" />
+    <PackageReference Include="Feliz" Version="2.6.0" />
+    <PackageReference Include="Feliz.ReactNative" Version="0.8.2" />
+    <PackageReference Include="Feliz.ReactNative.Lottie" Version="1.0.2" />
+    <PackageReference Include="Feliz.ReactNative.Paper" Version="1.0.0" />
+  </ItemGroup>
+</Project>
